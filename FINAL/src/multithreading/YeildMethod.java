@@ -10,12 +10,13 @@ public class YeildMethod extends Thread {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 
 		YeildMethod y = new YeildMethod();
 		y.start();
+		
+        Thread.yield();		
 
-		Thread.yield();
 
 		for (int i = 1; i <= 5; i++) {
 

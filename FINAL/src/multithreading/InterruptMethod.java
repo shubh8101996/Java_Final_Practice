@@ -1,4 +1,4 @@
-package multithreading;
+ package multithreading;
 
 public class InterruptMethod extends Thread {
 
@@ -30,7 +30,7 @@ public class InterruptMethod extends Thread {
 		InterruptMethod i = new InterruptMethod();
 		i.start();
 
-		i.interrupt();
+//		i.interrupt();
 
 	}
 

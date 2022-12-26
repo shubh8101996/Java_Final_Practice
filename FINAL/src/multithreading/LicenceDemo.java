@@ -60,14 +60,15 @@ public class LicenceDemo {
 		Medical m = new Medical();
 		m.start();
 
-		m.join(2000);
-//		Thread.yield();
+//		m.join(2000);
+		Thread.yield();
+//		Thread.sleep(3000);
 
 		TestDrive t = new TestDrive();
 		t.start();
-
-		t.join(2000);
-//		Thread.yield();
+//		Thread.sleep(3000);
+//		t.join(2000);
+		Thread.yield();
 
 		OfficerSign o = new OfficerSign();
 		o.start();
