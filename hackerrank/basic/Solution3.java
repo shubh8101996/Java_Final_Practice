@@ -57,8 +57,8 @@ public class Solution3 {
 
 			int result = N * i;
 
-			System.out.print(N + "x" + i);
-			System.out.println();
+			System.out.print(N + " x " + i);
+			System.out.println(" = " +N*i);
 
 		}
 

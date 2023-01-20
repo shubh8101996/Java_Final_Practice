@@ -7,7 +7,7 @@ public class HashMapClass {
 
 	public static void main(String[] args) {
 
-		Map hashmap = new HashMap();
+		HashMap hashmap = new HashMap();
 
 		hashmap.put(1, "shubham");
 		hashmap.put(2, "akash");
